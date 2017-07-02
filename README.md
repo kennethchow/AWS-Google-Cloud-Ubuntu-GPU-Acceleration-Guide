@@ -1,11 +1,12 @@
 AWS/Google Cloud Ubuntu GPU acceleration guide for running Tensorflow Neural Networks
 ==============================================
 
-## Install Steps
 
 ### 1. [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
 
 ![CUDADL](images/CUDATKDL.png)
+
+Right-click, copy link address.
 
 **Download, Rename and Install. (Rename because file extension in download is wrong as of current download version)**
 
@@ -126,6 +127,7 @@ vim jupyter_notebook_config.py
 
 Copy generated output hash and enter into c.NotebookApp.password field then append following block of text at top of jupyter_notebook_config.py 
 
+```
 c = get_config()
 c.IPKernelApp.pylab = 'inline'  # if you want plotting support always in your notebook
 c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem' #location of your certificate file
@@ -133,8 +135,9 @@ c.NotebookApp.ip = '*'
 c.NotebookApp.open_browser = False  #so that the ipython notebook does not opens up a browser by default
 c.NotebookApp.password = u'sha1:98ff0e580111:12798c72623a6eecd54b51c006b1050f0ac1a62d'  #the encrypted password we generated above
 c.NotebookApp.port = 8888
+```
 
-**TIP: SHIFT + Z + Z in vim to save**
+**SHIFT + Z + Z in vim to save**
 
 **Start Jupyter Notebook**
 
