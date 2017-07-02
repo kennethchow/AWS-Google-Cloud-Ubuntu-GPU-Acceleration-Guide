@@ -76,8 +76,6 @@ sudo shutdown -r now
 
 ### 4. Verify Install
 
-![verify](images/verify.png)
-
 ```
 nvidia-smi
 nvcc -V
@@ -85,6 +83,8 @@ cat /proc/driver/nvidia/version
 pip show keras
 pip show tensorflow-gpu
 ```
+
+![verify](images/verify.png)
 
 
 ## Pre-requirements/Optional packages
