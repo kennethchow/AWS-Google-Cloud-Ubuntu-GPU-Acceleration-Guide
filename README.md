@@ -4,7 +4,7 @@ AWS/Google Cloud Ubuntu GPU acceleration guide for running Tensorflow Neural Net
 
 ### 1. [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
 
-![CUDADL](images/CUDATKDL.png =640x)
+![CUDADL](images/CUDATKDL.png){:class="img-responsive"}
 
 Right-click, copy link address.
 
