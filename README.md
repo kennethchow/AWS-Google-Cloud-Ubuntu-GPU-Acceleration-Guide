@@ -4,7 +4,7 @@ AWS/Google Cloud Ubuntu GPU acceleration guide for running Tensorflow Neural Net
 
 ### 1. [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
 
-![CUDADL](images/CUDATKDL.png)
+![CUDADL](images/CUDATKDL.png =640x)
 
 Right-click, copy link address.
 
@@ -20,7 +20,7 @@ sudo apt-get install cuda -y
 
 ### 2. [NVIDIA cuDNN](https://developer.nvidia.com/rdp/cudnn-download)
 
-![cuDNNDL](images/cuDNNDL.png)
+![cuDNNDL](images/cuDNNDL.png =640x)
 
 Register and download cuDNN v5.1 [here](https://developer.nvidia.com/rdp/cudnn-download) on local machine.
 
@@ -84,14 +84,14 @@ pip show keras
 pip show tensorflow-gpu
 ```
 
-![verify](images/verify.png)
+![verify](images/verify.png =640x)
 
 
 ## Pre-requirements/Optional packages
 
 ### 1. [Anaconda](https://www.continuum.io/downloads)
 
-![anacondaDL](images/anacondaDL.png)
+![anacondaDL](images/anacondaDL.png =640x)
 
 **Install**
 
